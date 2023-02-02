@@ -10,171 +10,177 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-    
-  <script type="module" crossorigin src="/assets/main-371db904.js"></script>
-  <link rel="stylesheet" href="/assets/index-4c223faa.css">
+
+    <script type="module" crossorigin src="assets/main-371db904.js"></script>
+    <link rel="stylesheet" href="assets/index-4c223faa.css">
 </head>
 
-<body><!-- content -->
-<header id="head" class="bg-primary relative">
-    <div class="container py-5">
-        <nav class="navbar text-secondary">
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+<body>
+    <!-- content -->
+    <header id="head" class="bg-primary relative">
+        <div class="container py-5">
+            <nav class="navbar text-secondary">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52">
-                        <li tabindex="0">
-                            <a href="#how-it-works" class="justify-between sec-nav">
+                        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52">
+                            <li tabindex="0">
+                                <a href="#how-it-works" class="justify-between sec-nav">
                                 How it works
                                 <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
                             </a>
-                        </li>
-                        <li><a href="#about" class="sec-nav">About us</a></li>
-                        <li tabindex="0">
-                            <a href="#faq" class="justify-between sec-nav">
+                            </li>
+                            <li><a href="#about" class="sec-nav">About us</a></li>
+                            <li tabindex="0">
+                                <a href="#faq" class="justify-between sec-nav">
                                 Faq
                                 <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
                             </a>
+                            </li>
+                            <li><a>Blog</a></li>
+                        </ul>
+                    </div>
+                    <a href="#head" class="logo sec-nav">
+                        <img src="data:image/png;base64,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"
+                            alt="">
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li tabindex="0">
+                            <a href="#how-it-works">
+                            How it works
+                            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+                        </a>
+                        </li>
+                        <li><a href="#about" class="sec-nav">About us</a></li>
+                        <li tabindex="0">
+                            <a href="#faq" class="sec-nav">
+                            Faq
+                            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+                        </a>
                         </li>
                         <li><a>Blog</a></li>
                     </ul>
                 </div>
-                <a href="#head" class="logo sec-nav">
-                    <img src="data:image/png;base64,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" alt="">
-                </a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li tabindex="0">
-                        <a href="#how-it-works">
-                            How it works
-                            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-                        </a>
-                    </li>
-                    <li><a href="#about" class="sec-nav">About us</a></li>
-                    <li tabindex="0">
-                        <a href="#faq" class="sec-nav">
-                            Faq
-                            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-                        </a>
-                    </li>
-                    <li><a>Blog</a></li>
-                </ul>
-            </div>
-            <div class="navbar-end">
-                <a class="btn btn-outline btn-secondary hover:btn-primary">Sign Up</a>
-            </div>
-        </nav>        <div class="hero my-hero text-secondary">
-            <div class="hero-content flex-col lg:flex-row">
-                <div class="lg:w-1/2 ">
-                    <h1 class="text-5xl font-semibold">The best way to predict the future is to CREAT IT...</h1>
-                    <p class="py-6">With our intuitive budgeting tools and visulization, you can start creating the life you desire</p>
-                    <div class="form-control">
-                        <div class="input-group w-11/12">
-                            <input type="text" placeholder="e.g: me@mail.com">
-                            <button class="ml-3 btn bg-black">Notify me!</button>
+                <div class="navbar-end">
+                    <a class="btn btn-outline btn-secondary hover:btn-primary">Sign Up</a>
+                </div>
+            </nav>
+            <div class="hero my-hero text-secondary">
+                <div class="hero-content flex-col lg:flex-row">
+                    <div class="lg:w-1/2 ">
+                        <h1 class="text-5xl font-semibold">The best way to predict the future is to CREAT IT...</h1>
+                        <p class="py-6">With our intuitive budgeting tools and visulization, you can start creating the life you desire</p>
+                        <div class="form-control">
+                            <div class="input-group w-11/12">
+                                <input type="text" placeholder="e.g: me@mail.com">
+                                <button class="ml-3 btn bg-black">Notify me!</button>
+                            </div>
+                        </div>
+                        <div class="view-demo py-5 flex items-center">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACySURBVHgBrVOBDcMgDEO7gBP4pP1g+2D7YPug+4B9wEmcwCleMgWtpUlLpVqy1CqxY0RwrgGAkRiJBX9kYiIGZ4GKnvjBPtjca+KMfuSFSefkVZIqDkbDU+rThsnIDUmrNEecYKWAcXYR3n5TbJPiYEBED/m9WyYXdwxeu/+ykeBKHOT7rbRlLkTLYDZEEzNSXV0NL+xvZ6gTIo4jnrfKM5OeJOvH1BjxaicsExURDm3/F1Q56N4lK1HiAAAAAElFTkSuQmCC"
+                                class="w-5" alt="play icon">
+                            <span class="ml-3">
+                            <span class="font-medium">View Demo!</span> Understanding the future of savings</span>
                         </div>
                     </div>
-                    <div class="view-demo py-5 flex items-center">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACySURBVHgBrVOBDcMgDEO7gBP4pP1g+2D7YPug+4B9wEmcwCleMgWtpUlLpVqy1CqxY0RwrgGAkRiJBX9kYiIGZ4GKnvjBPtjca+KMfuSFSefkVZIqDkbDU+rThsnIDUmrNEecYKWAcXYR3n5TbJPiYEBED/m9WyYXdwxeu/+ykeBKHOT7rbRlLkTLYDZEEzNSXV0NL+xvZ6gTIo4jnrfKM5OeJOvH1BjxaicsExURDm3/F1Q56N4lK1HiAAAAAElFTkSuQmCC" class="w-5" alt="play icon">
-                        <span class="ml-3">
-                            <span class="font-medium">View Demo!</span>
-                            Understanding the future of savings</span>
+                    <div class="lg:w-1/2 py-10 lg:py-0 flex justify-around">
+                        <img src="assets/phone-f5fef1fa.png" class="w-10/12" />
                     </div>
-                </div>
-                <div class="lg:w-1/2 py-10 lg:py-0 flex justify-around">
-                    <img src="/assets/phone-f5fef1fa.png" class="w-10/12" />
                 </div>
             </div>
         </div>
-    </div>
-    <a href="#how-it-works" class="arrow sec-nav">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAwCAYAAACfbhNRAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFZSURBVHgB7ZjrbQIxDICtTsAI2aBs0I7ABu0I3eA6QjeADW6E6wY3QkZgBGNDDCFHHoTcISR/kn+Qh/0JKzolAK8MIn5T7F18wdJQ0RWFxQsssoJK3qCONYXxfrPAO1RSK9EUlRBUQlAJQSUElRBUQlAJQSUElRBUQlAJ4ShBF5dfioFiAzNDNT4peorOH/zDa7IiLlHIR8W+TiZsMMFXunVrCc7pcl/V4jluhwnW85VuyIncA+UynNPlDmsdJf5v7OPJ3m2eSwDOtSN/k2BviZS2g/fitN1+242/+C6REokCgWm7aXCDcSx67w85CZy+X4TETyCeXl9ijCKSknACYyJP/lWHFv2kRAokhsT+DkrhxYlE25gExQ5bCBSKjIVj9QKFIqXUC3giuwcEttCKSpF2Ak4id+xCzsf5WSLzCAQiNiHAcwbmBuPfhGUEEiLLCgQivQsDD3AAb7a0VB2NtUUAAAAASUVORK5CYII=" alt="Arrow">
-    </a>
-</header>
-<main>
-    <section id="how-it-works">
-        <div class="container">
-            <div class="hero my-hero">
-                <div class="hero-content w-full flex-col lg:flex-row">
-                    <div class="lg:w-2/5 w-full pr-10">
-                        <h1 class="text-5xl font-light mb-12">How it works</h1>
-                        <h3 class="text-accent/70 text-2xl font-semibold">01. Money Disbursed</h3>
-                        <p class="py-6 mb-10">Everydaymoney offers a unique feature that allows users to set aside a portion of their income to be disbursed back to them on a daily, weekly, or monthly basis.</p>
-                        <div class="controls--container">
-                            <button>1</button>
-                            <button>2</button>
-                            <button>3</button>
-                            <button>4</button>
+        <a href="#how-it-works" class="arrow sec-nav">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAwCAYAAACfbhNRAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFZSURBVHgB7ZjrbQIxDICtTsAI2aBs0I7ABu0I3eA6QjeADW6E6wY3QkZgBGNDDCFHHoTcISR/kn+Qh/0JKzolAK8MIn5T7F18wdJQ0RWFxQsssoJK3qCONYXxfrPAO1RSK9EUlRBUQlAJQSUElRBUQlAJQSUElRBUQlAJ4ShBF5dfioFiAzNDNT4peorOH/zDa7IiLlHIR8W+TiZsMMFXunVrCc7pcl/V4jluhwnW85VuyIncA+UynNPlDmsdJf5v7OPJ3m2eSwDOtSN/k2BviZS2g/fitN1+242/+C6REokCgWm7aXCDcSx67w85CZy+X4TETyCeXl9ijCKSknACYyJP/lWHFv2kRAokhsT+DkrhxYlE25gExQ5bCBSKjIVj9QKFIqXUC3giuwcEttCKSpF2Ak4id+xCzsf5WSLzCAQiNiHAcwbmBuPfhGUEEiLLCgQivQsDD3AAb7a0VB2NtUUAAAAASUVORK5CYII="
+                alt="Arrow">
+        </a>
+    </header>
+    <main>
+        <section id="how-it-works">
+            <div class="container">
+                <div class="hero my-hero">
+                    <div class="hero-content w-full flex-col lg:flex-row">
+                        <div class="lg:w-2/5 w-full pr-10">
+                            <h1 class="text-5xl font-light mb-12">How it works</h1>
+                            <h3 class="text-accent/70 text-2xl font-semibold">01. Money Disbursed</h3>
+                            <p class="py-6 mb-10">Everydaymoney offers a unique feature that allows users to set aside a portion of their income to be disbursed back to them on a daily, weekly, or monthly basis.</p>
+                            <div class="controls--container">
+                                <button>1</button>
+                                <button>2</button>
+                                <button>3</button>
+                                <button>4</button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="lg:w-3/5 w-full py-10 lg:py-0 flex justify-around">
-                        <div class="img">
-                            <div class="my-slider">
-                                <div class="slide-1"></div>
-                                <div class="slide-2"></div>
-                                <div class="slide-3"></div>
-                                <div class="slide-4"></div>
+                        <div class="lg:w-3/5 w-full py-10 lg:py-0 flex justify-around">
+                            <div class="img">
+                                <div class="my-slider">
+                                    <div class="slide-1"></div>
+                                    <div class="slide-2"></div>
+                                    <div class="slide-3"></div>
+                                    <div class="slide-4"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="about">
-        <div class="container">
-            <div class="hero my-hero">
-                <div class="hero-content w-full flex-col lg:flex-row">
-                    <div class="lg:w-3/5 w-full text-xl p-10 bg-base-100 font-light">
-                        <p>Our goal is to assist individuals in developing a saving culture by utilizing the internet, mobile technology, and our intuitive budgeting tool to produce the next generation of wealth in Africa.</p>
-                        <p class="py-4">We aim to motivate and empower users to make informed decisions about their money. We want to help users build a brighter financial future and achieve financial stability and security.</p>
-                        <h1 class="lg:text-8xl text-5xl text-info font-light">About us</h1>
-                    </div>
-                    <div class="lg:w-2/5 w-full py-10 lg:py-0 flex justify-around">
-                        <div class="img">
-                            <img src="/assets/logo-layer-f633f1c4.svg" alt="">
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="hero my-hero">
+                    <div class="hero-content w-full flex-col lg:flex-row">
+                        <div class="lg:w-3/5 w-full text-xl p-10 bg-base-100 font-light">
+                            <p>Our goal is to assist individuals in developing a saving culture by utilizing the internet, mobile technology, and our intuitive budgeting tool to produce the next generation of wealth in Africa.</p>
+                            <p class="py-4">We aim to motivate and empower users to make informed decisions about their money. We want to help users build a brighter financial future and achieve financial stability and security.</p>
+                            <h1 class="lg:text-8xl text-5xl text-info font-light">About us</h1>
+                        </div>
+                        <div class="lg:w-2/5 w-full py-10 lg:py-0 flex justify-around">
+                            <div class="img">
+                                <img src="assets/logo-layer-f633f1c4.svg" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="faq">
-        <div class="container">
-            <h3 class="text-accent/70 mb-10 text-5xl font-semibold">To understand <br> us better</h3>
-            <p class="text-xl mb-4">Popular questions</p>
-            <dl id="accordion">
-                <dt>How do i start saving?</dt>
-                <dd>
-                    <p>Beats me</p>
-                </dd>
-                <dt>Will i earn extra funds from this?</dt>
-                <dd>
-                    <p>Beats me</p>
-                </dd>
-                <dt>Is it possible to save up to a million at once?</dt>
-                <dd>
-                    <p>Beats me</p>
-                </dd>
-                <dt>How safe is this process?</dt>
-                <dd>
-                    <p>Beats me</p>
-                </dd>
-            </dl>
-        </div>
-    </section>
-</main>
+        </section>
+        <section id="faq">
+            <div class="container">
+                <h3 class="text-accent/70 mb-10 text-5xl font-semibold">To understand <br> us better</h3>
+                <p class="text-xl mb-4">Popular questions</p>
+                <dl id="accordion">
+                    <dt>How do i start saving?</dt>
+                    <dd>
+                        <p>Beats me</p>
+                    </dd>
+                    <dt>Will i earn extra funds from this?</dt>
+                    <dd>
+                        <p>Beats me</p>
+                    </dd>
+                    <dt>Is it possible to save up to a million at once?</dt>
+                    <dd>
+                        <p>Beats me</p>
+                    </dd>
+                    <dt>How safe is this process?</dt>
+                    <dd>
+                        <p>Beats me</p>
+                    </dd>
+                </dl>
+            </div>
+        </section>
+    </main>
 
-<script src="https://cdn.jsdelivr.net/npm/vanillajs-scrollspy@3.0.3/dist/vanillajs-scrollspy.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanillajs-scrollspy@3.0.3/dist/vanillajs-scrollspy.min.js"></script>
 
-<script>
-    const menu = document.querySelector('header')
-    const scrollspy = VanillaScrollspy({ menu })
-    scrollspy.init()
-</script>
+    <script>
+        const menu = document.querySelector('header')
+        const scrollspy = VanillaScrollspy({
+            menu
+        })
+        scrollspy.init()
+    </script>
 </body>
 
 </html>
